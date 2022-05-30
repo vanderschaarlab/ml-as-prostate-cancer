@@ -1,5 +1,4 @@
-# ml-as-prostate-cancer
+# prostate_temporal
 
-This is the code repository for the paper: [*Development and clinical utility of machine learning algorithms for dynamic longitudinal real-time estimation of progression risks in active surveillance of early prostate cancer*](#).
-
-🚧 Work in progress.
+### Results and Models:
+Results and models files can be found here: https://drive.google.com/drive/folders/1DyKd2yqrTzK_M3ZPWjHR6DS5tpiBzfPH

@@ -100,7 +100,29 @@ ENV/
 # mypy
 .mypy_cache/
 
+# ----------------------------------------------------------------------------------------------------------------------
 
+.vscode/
+BAK/
 
-# CUSTOM:
-# TBC.
+# Data directories:
+data/*
+data.C/
+data.old/
+data.as.per.cleanup.branch/
+!data/pbc2_cleaned.csv
+
+# Misc
+figures/
+tmp/
+
+# Results & models:
+STRATCANS_*/
+
+# Rough / test notebooks prefixed with underscore _
+_*.ipynb
+_tmp*/
+
+.flake8
+.pylintrc
+pyproject.toml

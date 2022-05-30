@@ -1,0 +1,37 @@
+[tool.black]
+line-length = 120
+target-version = ['py36', 'py37', 'py38']
+include = '\.pyi?$'
+extend-exclude = '''
+^/(
+    docs/conf.py
+)
+'''
+# ^
+# A regular expression that matches files and directories that should be excluded on recursive searches. An empty
+# value means no paths are excluded. Use forward slashes for directories on all platforms (Windows, too). Exclusions
+# are calculated first, inclusions later.
+# [default: /(\.direnv|\.eggs|\.git|\.hg|\.mypy_cache|\.nox|\.tox|\.venv|venv|\.svn|_build|buck-out|build|dist)/
+#
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+# ^/foo.py  # exclude a file named foo.py in the root of the project (in addition to the defaults)
+#
+# Example:
+#
+# ^/(
+#   (
+#       \.eggs         # exclude a few common directories in the
+#     | \.git          # root of the project
+#     | \.hg
+#     | \.mypy_cache
+#     | \.tox
+#     | \.venv
+#     | _build
+#     | buck-out
+#     | build
+#     | dist
+#   )/
+#   | foo.py           # also separately exclude a file named foo.py in
+#                      # the root of the project
+# )
